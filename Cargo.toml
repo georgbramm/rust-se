@@ -1,0 +1,21 @@
+[package]
+name = "rust-se"
+version = "0.1.0"
+authors = ["bramm <georg.bramm@aisec.fraunhofer.de>"]
+edition = "2018"
+
+[dependencies]
+serde = {version = "1.0.16", features = ["derive"] }
+serde_json = "1.0.4"
+serde_derive = "1.0.16"
+bincode = "1.0.0"
+rand = "0.3"
+mongodb = "0.4.0"
+lazy_static = "1.4.0"
+rust-crypto = "0.2.36"
+rust-hope = { git = "https://github.com/georgbramm/rust-hope" }
+fpe = "0.2.0"
+num-traits = "0.2.11"
+primitive-types = { git = "https://github.com/georgbramm/parity-common" , features = ["serde"] }
+rulinalg = { git = "https://github.com/garro95/rulinalg", features = ["serde"] }
+osm-xml = "0.6.2"
